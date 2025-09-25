@@ -14,7 +14,7 @@
 	String url="jdbc:oracle:thin:@localhost:1521:xe";			
 	String user = "scott";
 	String password = "tiger";
-	String sql ="select empno, ename,job,mgr,to_char(hiredate,'YYYY-MM-DD HH-mm-SS') hiredate,sal,comm,deptno from emp";
+	String sql ="select empno, ename,job,mgr,to_char(hiredate,'YYYY-MM-DD HH:mm:SS') hiredate,sal,comm,deptno from emp";
 %>
 <html>
 <head>
@@ -68,4 +68,5 @@
 	 %>
 	 </table>
 </body>
+
 </html>
